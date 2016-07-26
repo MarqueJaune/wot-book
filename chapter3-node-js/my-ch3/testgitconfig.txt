@@ -9,3 +9,4 @@ eight test. it ain't working
 nineth test
 tenth test. and final?
 eleventh test. caching passwd
+twelveth test. using gnome-keyring instead
