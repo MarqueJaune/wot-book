@@ -14,4 +14,4 @@ last test. unstagging THIS file
 really last test. restagging THIS file
 
 trying to resolve merge conflicts
-
+last ed. merge conflicts solved
