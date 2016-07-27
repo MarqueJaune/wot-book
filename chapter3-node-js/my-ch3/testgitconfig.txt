@@ -1,1 +1,14 @@
 just a test to check encrypted credentials work
+second test
+third test
+fourth test
+fifth test
+sixth test. duhh...
+seventh test. like seven lives...
+eight test. it ain't working
+nineth test
+tenth test. and final?
+eleventh test. caching passwd
+twelveth test. using gnome-keyring instead
+last test. unstagging THIS file
+really last test. restagging THIS file
