@@ -12,3 +12,6 @@ eleventh test. caching passwd
 twelveth test. using gnome-keyring instead
 last test. unstagging THIS file
 really last test. restagging THIS file
+
+trying to resolve merge conflicts
+
