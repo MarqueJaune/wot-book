@@ -15,7 +15,7 @@ interval = setInterval(function () {
   });
 }, 2000);
 
-//#F Listen to the event triggered on CTRL+C
+//#F Listen to the event triggered on CTRL^C
 process.on('SIGINT', function () {
   clearInterval(interval);
   //#G  Cleanly close the GPIO pin before exiting
