@@ -10,12 +10,14 @@ var Gpio = onoff.Gpio,
 // function definitions
 function readwrite() {
   var value = (led.readSync() + 1) % 2;
-  led.write(value, logterm());
+  led.write(value, function() {
+    console.log("Changed LED state to: " + value);
+  });
 }
 
-function logterm() {
-  console.log("Changed LED state to: " + value);
-}
+//function logterm() {
+  //console.log("Changed LED state to: " + value);
+//}
 
 //#C This interval will be called every 2 seconds
 interval = setInterval(readwrite(), 2000);
