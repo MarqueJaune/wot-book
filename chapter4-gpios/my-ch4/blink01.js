@@ -4,11 +4,12 @@ var onoff = require('onoff');
 var Gpio = onoff.Gpio,
     //#B Initialize pin 4 to be an output pin
     led = new Gpio(4, 'out'),
-    interval,
-    value = (led.readSync() + 1) % 2;
+    interval;
+    //value = (led.readSync() + 1) % 2;
 
 // function definitions
 function readwrite() {
+  global var value = (led.readSync() + 1) % 2;
   led.write(value, logterm());
 }
 
