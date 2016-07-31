@@ -9,7 +9,7 @@ var Gpio = onoff.Gpio,
 
 // function definitions
 function readwrite() {
-  var value = (led.readSync() + 1) % 2;
+  var value = (led.readSync + 1) % 2;
   led.write(value, function() {
     console.log("Changed LED state to: " + value);
   });
